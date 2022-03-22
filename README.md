@@ -14,6 +14,6 @@
 <img src="/img/search.jpg" alt="Search " title="Search">
 <hr>
 <img src="/img/userDetails.jpg" alt="User Details" title="User Details">
-
+<hr>
 
 
