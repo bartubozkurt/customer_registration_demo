@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<div class="row">
+    <div class="col-lg-8">
+    <small>
+        {{customer.user}}
+    </small>
+    <small>
+        {{customer.created_date}}
+    </small>
+    <h3 class="mt-4">Customer Name :  {{customer.name}} {{customer.surname}}</h3>
+    <hr>
+    <p>Tc No: {{customer.tc}}</p>
+    <hr>
+    <p>Tel No: {{customer.phone}}</p>
+    <hr>
+    <p>Country: {{customer.city}}</p>
+    <hr>
+    <p>District: {{customer.district}}</p>
+    <hr>
+    <p>Created at: {{customer.created_date}}</p>
+    </div>
+</div>
+
+{% endblock body %}
